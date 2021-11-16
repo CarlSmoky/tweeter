@@ -3,4 +3,9 @@ header {
   flex-direction: column;
   align-items: center;
   position: relative;
+  padding: 2rem;
+  height: 400px;
+  width: 100%;
+  background-color: #ab8900;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-stripes-light.png");
 }
