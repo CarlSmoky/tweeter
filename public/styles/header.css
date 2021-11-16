@@ -2,11 +2,15 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
-  padding: 2rem;
-  height: 400px;
+  /* position: relative; */
+  height: 600px;
   width: 100%;
   background-color: #ab8900;
   background-image: url("https://www.transparenttextures.com/patterns/dark-stripes-light.png");
   border: 2px dotted black;
+}
+
+header .avator {
+  display: flex;
+  padding-top: 180px;
 }
