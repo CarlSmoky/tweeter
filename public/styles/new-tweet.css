@@ -55,4 +55,9 @@ output.counter.alert {
 .tweet {
   margin: 5px;
   border: 2px solid;
+  background-color: #f4f1ec;
+}
+section article.tweet header {
+  background-color: #f4f1ec;
+
 }
