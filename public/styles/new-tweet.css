@@ -42,7 +42,11 @@ form button {
   font-size: 60%;
 }
 
-.counter {
+output.counter {
   font-size: 80%;
   font-weight: bold;
+}
+
+output.counter.alert {
+  color: red;
 }
