@@ -26,8 +26,8 @@ main {
   width: 90%;
   margin: auto;
   display: flex;
-  justify-content: center
-
+  justify-content: center;
+  /* border: 2px dotted black; */
 }
 
 /*
