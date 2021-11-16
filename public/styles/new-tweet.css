@@ -1,6 +1,8 @@
 .new-tweet {
+  justify-content: center;
   border: 2px dotted green;
-  width: 95%;
+  margin: 5px;
+  padding: 0.5em;
 }
 form {
   display: flex;
@@ -12,8 +14,6 @@ form label {
 }
 
 .submit-counter {
-  display: flex;
-  flex-direction: row;
   justify-content: space-between;
   padding-top: 1em;
 }
@@ -50,4 +50,9 @@ output.counter {
 
 output.counter.alert {
   color: red;
+}
+
+.tweet {
+  margin: 5px;
+  border: 2px solid;
 }
