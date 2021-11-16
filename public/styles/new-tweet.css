@@ -1,6 +1,6 @@
 .new-tweet {
-  /* border: 2px dotted red; */
-  width: 100%;
+  border: 2px dotted green;
+  width: 95%;
 }
 form {
   display: flex;
@@ -15,7 +15,7 @@ form label {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  
+  padding-top: 1em;
 }
 
 form textarea {
@@ -27,7 +27,7 @@ form textarea {
   text-decoration: none;
   outline: none;
   font-size: 0.6em;
-  line-height: 1em;
+  line-height: 1.5em;
 }
 
 form button {

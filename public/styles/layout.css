@@ -27,7 +27,7 @@ main {
   margin: auto;
   display: flex;
   justify-content: center;
-  /* border: 2px dotted black; */
+  border: 2px dotted red;
 }
 
 /*
