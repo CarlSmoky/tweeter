@@ -1,5 +1,5 @@
 .new-tweet {
-  border: 2px dotted red;
+  /* border: 2px dotted red; */
   width: 100%;
 }
 form {
@@ -8,7 +8,6 @@ form {
 }
 
 form label {
-  border-bottom: 5px solid;
   font-weight: bold;
 }
 
@@ -17,6 +16,17 @@ form label {
   flex-direction: row;
   justify-content: space-between;
   
+}
+
+form textarea {
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-bottom: 5px solid;
+  background-color: #f4f1ec;;
+  text-decoration: none;
+  outline: none;
+  line-height: 0.5em;
 }
 
 form button {
