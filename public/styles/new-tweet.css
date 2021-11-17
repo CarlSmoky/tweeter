@@ -56,12 +56,17 @@ output.counter.alert {
 
 .tweet {
   border: 2px solid;
+  margin: 1em 0 1em;
 }
 article.tweet header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+article.tweet:hover {
+  box-shadow: 5px 10px 10px #C9CBE0;
 }
 
 article.tweet span {
@@ -90,7 +95,6 @@ article.tweet footer {
 }
 
 article.tweet footer span{
-  
   font-size: 16px;
 }
 
@@ -101,6 +105,11 @@ article.tweet footer icons {
 article.tweet footer i {
   padding: 0.5 em;
   font-size: 12px;
+  color: #4056A1;
+}
+
+article.tweet footer i:hover {
+  color: #BA873E;
 }
 
 article.tweet .textTweet {
