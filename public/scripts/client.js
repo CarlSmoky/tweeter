@@ -3,3 +3,42 @@
  * jQuery is already loaded
  * Reminder: Use (and do all your DOM work in) jQuery's document ready function
  */
+
+$(document).ready(function () {
+  const tweetData = {
+    "user": {
+      "name": "Newton",
+      "avatars": "https://i.imgur.com/73hZDYK.png",
+      "handle": "@SirIsaac"
+    },
+    "content": {
+      "text": "If I have seen further it is by standing on the shoulders of giants"
+    },
+    "created_at": 1461116232227
+  };
+
+  const createTweetElement = function (tweetData) {
+    const $html = `<article class="tweet">
+                    <header>
+                      <div class="article-header-left">
+                        <img src=${tweetData.user.avatars}>
+                        <span>${tweetData.user.name}</span>
+                      </div>
+                      <span class="article-header-right">${tweetData.user.handle}</span>
+                    </header>
+                    <p class="textTweet">${tweetData.content.text}</p>
+                    <footer>
+                    <span>${timeago.format(tweetData.created_at)}</span>
+                      <div class="icons">
+                        <i class="fas fa-flag"></i>
+                        <i class="fas fa-retweet"></i>
+                        <i class="fas fa-heart"></i>
+                      </div>
+                    </footer>
+                  </article>`;
+    return $html;
+  };
+  
+  const $tweet = createTweetElement(tweetData);
+  $('#tweets-container').append($tweet);
+});
