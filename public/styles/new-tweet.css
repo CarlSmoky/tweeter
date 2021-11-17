@@ -30,6 +30,7 @@ form textarea {
   outline: none;
   font-size: 0.6em;
   line-height: 1.5em;
+  resize: none;
 }
 
 form button {
