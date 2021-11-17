@@ -14,6 +14,8 @@ form label {
 }
 
 .submit-counter {
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
   padding-top: 1em;
 }
@@ -53,11 +55,56 @@ output.counter.alert {
 }
 
 .tweet {
-  margin: 5px;
   border: 2px solid;
-  background-color: #f4f1ec;
 }
-section article.tweet header {
-  background-color: #f4f1ec;
+article.tweet header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
 
+article.tweet span {
+  padding: 0.7em;
+}
+
+.article-header-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1em;
+}
+
+.article-header-right{
+  align-items: center;
+  padding: 1em;
+}
+
+article.tweet footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 5px solid;
+  margin: 0.5em;
+}
+
+article.tweet footer span{
+  
+  font-size: 16px;
+}
+
+article.tweet footer icons {
+  padding: 0.7em;
+}
+
+article.tweet footer i {
+  padding: 0.5 em;
+  font-size: 12px;
+}
+
+article.tweet .textTweet {
+  align-items: center;
+  padding: 1em;
+  margin: 0;
 }
