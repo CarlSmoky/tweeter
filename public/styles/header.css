@@ -11,10 +11,11 @@
 header .avator {
   display: flex;
   position: relative;
-  top: 190px;
+  top: 8.5rem;
 }
 
 header .username {
   position: relative;
-  top: 210px;
+  top: 9.5rem;
+  color: white;
 }
