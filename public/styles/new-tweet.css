@@ -10,36 +10,37 @@ form {
 }
 
 form label {
+  font-size: 1.5rem;
+  padding: 1rem 0 0 1rem;
   font-weight: bold;
-}
-
-.submit-counter {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-top: 1em;
 }
 
 form textarea {
   border-top: 0px;
   border-right: 0px;
   border-left: 0px;
-  border-bottom: 5px solid;
+  border-bottom: 0.2rem solid;
   background-color: #f4f1ec;;
   text-decoration: none;
   outline: none;
-  font-size: 0.6em;
-  line-height: 1.5em;
+  font-size: 1rem;
+  line-height: 1.5rem;
   resize: none;
+}
+
+.submit-counter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  font-family: Bungee, "sans-serif";
 }
 
 form button {
   background-color: #4056A1;
   color: #FFFFFF;
-  font-size: 24px;
-  font-family: Bungee, "sans-serif";
+  font-size: 2rem;
   border: none;
-  padding: 0.5em 0.5em;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -116,7 +117,8 @@ article.tweet footer i:hover {
 article.tweet .textTweet {
   align-items: center;
   padding: 1em;
-  margin: 0;
+  margin: 1rem;
+  font-size: 1rem;
 }
 
 .errorContainer .errorMsg{
