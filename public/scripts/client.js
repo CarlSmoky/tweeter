@@ -44,7 +44,7 @@ const loadTweets = () => {
     });
 };
 
-const escape = function (str) {
+const escape = function(str) {
   let div = document.createElement("div");
   div.appendChild(document.createTextNode(str));
   return div.innerHTML;
@@ -58,10 +58,9 @@ $(document).ready(function() {
   $("form").on("submit", function(event) {
     event.preventDefault();
     $('.errorContainer').empty();
-    let url = "/tweets";
 
+    //Error display
     const val = $("#tweet-text").val();
-    console.log(val);
     if (val === "" || !val) {
       $('.errorContainer').empty();
       const errorMsg = '<p class="errorMsg"><i class="fas fa-exclamation-triangle"></i>You need input something.<i class="fas fa-exclamation-triangle"></i></p>';
@@ -74,6 +73,8 @@ $(document).ready(function() {
       $('.errorContainer').append(errorMsg);
       return;
     }
+    
+    let url = "/tweets";
     let tweet = $("#tweet-text");
     const tweetText = tweet.serialize();
 
@@ -84,7 +85,6 @@ $(document).ready(function() {
     }).then(()=> {
       $('#tweets-container').empty();
       loadTweets();
-      console.log(event);
     });
     
   });
