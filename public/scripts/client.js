@@ -38,11 +38,11 @@ const createTweetElement = function (tweetData) {
   <header>
   <div class="article-header-left">
   <img src=${tweetData.user.avatars}>
-  <span>${tweetData.user.name}</span>
+  <span>${escape(tweetData.user.name)}</span>
   </div>
-  <span class="article-header-right">${tweetData.user.handle}</span>
+  <span class="article-header-right">${escape(tweetData.user.handle)}</span>
   </header>
-  <p class="textTweet">${tweetData.content.text}</p>
+  <p class="textTweet">${escape(tweetData.content.text)}</p>
   <footer>
   <span>${timeago.format(tweetData.created_at)}</span>
   <div class="icons">
@@ -75,6 +75,12 @@ const loadTweets = () => {
     });
 };
 
+const escape = function (str) {
+  let div = document.createElement("div");
+  div.appendChild(document.createTextNode(str));
+  return div.innerHTML;
+};
+
 $(document).ready(function () {
 
   loadTweets();
@@ -83,7 +89,7 @@ $(document).ready(function () {
     event.preventDefault();
     $('.errorContainer').empty();
     let url = "/tweets";
-    
+
     const val = $("#tweet-text").val();
     console.log(val);
     if (val === "" || !val) {
