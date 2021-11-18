@@ -2,20 +2,21 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 600px;
+  height: 410px;
   width: 100%;
-  background-color: #ab8900;
+  background-color: #CD881D;
   background-image: url("https://www.transparenttextures.com/patterns/dark-stripes-light.png");
 }
 
 header .avator {
   display: flex;
   position: relative;
-  top: 8.5rem;
+  top: 4.5rem;
 }
 
 header .username {
   position: relative;
-  top: 9.5rem;
+  top: 2rem;
   color: white;
+  font-size: 1.5rem;
 }

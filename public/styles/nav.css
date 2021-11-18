@@ -1,7 +1,7 @@
 nav {
   height: 4rem;
   /* background-color: #4056A1; */
-  background-color: #ab8900;
+  background-color: #CD881D;
   color: #FFFFFF;
   font-size: 24px;
   width: 100%;
@@ -16,9 +16,8 @@ nav {
  nav .title {
   font-family: Bungee, "sans-serif";
   flex-grow: 2;
-  margin: 0.5em;
-  font-size: 1.5rem;
-  padding: 0.5rem 1rem 1rem 1rem;
+  margin: 0.8rem 0 0.8rem 1.5rem;
+  font-size: 2rem;
  }
 
  nav .right {
@@ -27,7 +26,7 @@ nav {
    flex-direction: column;
    align-items: center;
    padding: 1.4rem 1rem 1rem 1rem;
-   font-size: 0.8rem;
+   font-size: 1rem;
  }
 
  .fa-solid {
