@@ -60,11 +60,13 @@ output.counter.alert {
   border: 2px solid;
   margin: 1em 0 1em;
 }
+
 article.tweet header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin: 0.5rem 1rem 1rem 0.5rem;
 }
 
 article.tweet:hover {
@@ -74,17 +76,22 @@ article.tweet:hover {
 article.tweet span {
   padding: 0.7em;
 }
-
+/* article header .left */
 .article-header-left {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 1em;
+  padding: 0.5em
 }
+
+/* .article-header-left img {
+  font-size: 1rem;
+} */
 
 .article-header-right{
   align-items: center;
-  padding: 1em;
+  font-size: 1.3rem;
+  color: #CDD4DD;
 }
 
 article.tweet footer {
@@ -92,16 +99,17 @@ article.tweet footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border-top: 5px solid;
-  margin: 0.5em;
+  border-top: 0.2rem solid;
+  margin: 0 0.6rem 0.5rem 0.6rem;
 }
 
 article.tweet footer span{
-  font-size: 16px;
+  font-size: 0.6rem;
+  font-weight: 600;
 }
 
 article.tweet footer icons {
-  padding: 0.7em;
+  padding: 1rem;
 }
 
 article.tweet footer i {
@@ -116,9 +124,10 @@ article.tweet footer i:hover {
 
 article.tweet .textTweet {
   align-items: center;
-  padding: 1em;
+  padding: 1rem 0.5rem 0 0.5rem;
   margin: 1rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .errorContainer .errorMsg{
