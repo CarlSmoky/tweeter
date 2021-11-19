@@ -30,7 +30,6 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 2px dotted red;
 }
 
 /*
@@ -44,7 +43,7 @@ main {
   
   }
   .container {
-    margin-top: 8rem;
+    margin: 8rem 1.3rem;
   }
   .header {
     background-color: #f4f1ec;
