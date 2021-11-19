@@ -49,6 +49,6 @@ main {
   .header {
     background-color: #f4f1ec;
     margin: 8rem 2rem 4rem 2rem;
-    flex-shrink: 1.2;
+    flex-shrink: 1.4;
   }
 }
