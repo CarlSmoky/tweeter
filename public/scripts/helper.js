@@ -20,10 +20,6 @@ const createTweetElement = function(tweetData) {
                 </article>`;
   return $html;
 };
-//xss
-// .text().html()
-// ${$("<div>").text(tweetData.user.name).html()}
-// ${$("<div>").addClass("article-header-right").text(tweetData.user.handle).html()}
 
 const renderTweets = function(tweets) {
   // loops through tweets
@@ -47,5 +43,3 @@ const escape = function(str) {
   div.appendChild(document.createTextNode(str));
   return div.innerHTML;
 };
-
-// module.exports = {createTweetElement, renderTweets, loadTweets, escape};
