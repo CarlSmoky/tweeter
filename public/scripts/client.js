@@ -37,14 +37,11 @@ $(document).ready(function() {
       data: tweetText
     }).then(()=> {
       $(this).find('textarea').val("");
-      // $('#tweets-container').empty();
-      // loadTweets();
     });
     $.get("http://localhost:8080/tweets", (data) => {
       const newtweets = data.slice(-1).pop();
       const newTweetElement = createTweetElement(newtweets);
       $('#tweets-container').prepend(newTweetElement);
     });
-    
   });
 });
