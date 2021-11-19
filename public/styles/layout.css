@@ -19,6 +19,8 @@ body {
   background-color: #f4f1ec;
   font-size: 24px;
   font-family: "Source Sans Pro", "sans-serif";
+  display: flex;
+  flex-direction: column;
 }
 
 main {
@@ -35,3 +37,14 @@ main {
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
  
+ @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+  }
+  .container {
+  margin-top: 4rem;
+  }
+}
