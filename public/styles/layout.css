@@ -50,7 +50,7 @@ main {
 
   .header {
     background-color: #f4f1ec;
-    margin: 8rem 4rem 4rem 4rem;
-    flex-shrink: 2;
+    margin: 8rem 2rem 4rem 2rem;
+    flex-shrink: 1.2;
   }
 }
