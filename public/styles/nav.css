@@ -1,6 +1,5 @@
 nav {
   height: 4rem;
-  /* background-color: #4056A1; */
   background-color: #CD881D;
   color: #FFFFFF;
   font-size: 24px;
@@ -32,18 +31,9 @@ nav {
  .fa-solid {
    color: red;
  }
-
- /* Tablet: minimum width of 768px to maximum width of 1024px */
  @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  nav {
-    /* height: 4rem; */
-    background-color: #4056A1;
-  }
-
-  
+ nav {
+  background-color: #4056A1;
+  background-image: none;
 }
-
-/* Another tablet breakpoint is maximum width of 1024px */
-@media only screen and (max-width: 1024px) {
-  
-}
+ }

@@ -36,7 +36,6 @@ main {
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
- 
  @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .contents{
     display: flex;
@@ -47,7 +46,6 @@ main {
   .container {
     margin-top: 8rem;
   }
-
   .header {
     background-color: #f4f1ec;
     margin: 8rem 2rem 4rem 2rem;
