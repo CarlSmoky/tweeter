@@ -45,6 +45,12 @@ main {
   
   }
   .container {
-  margin-top: 4rem;
+    margin-top: 8rem;
+  }
+
+  .header {
+    background-color: #f4f1ec;
+    margin: 8rem 4rem 4rem 4rem;
+    flex-shrink: 2;
   }
 }
