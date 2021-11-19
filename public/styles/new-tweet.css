@@ -1,9 +1,9 @@
 .new-tweet {
   justify-content: center;
-  border: 2px dotted green;
   margin: 5px;
   padding: 0.5em;
 }
+
 form {
   display: flex;
   flex-direction: column;
@@ -76,7 +76,7 @@ article.tweet:hover {
 article.tweet span {
   padding: 0.7em;
 }
-/* article header .left */
+
 .article-header-left {
   display: flex;
   flex-direction: row;
@@ -87,7 +87,6 @@ article.tweet span {
 #tweets-container header div span {
   overflow-wrap:anywhere;
 }
-
 .article-header-right{
   align-items: center;
   font-size: 1.3rem;

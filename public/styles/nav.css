@@ -31,9 +31,10 @@ nav {
  .fa-solid {
    color: red;
  }
- @media only screen and (min-width: 768px) and (max-width: 1024px) {
- nav {
-  background-color: #4056A1;
-  background-image: none;
-}
+
+ @media only screen and (min-width: 768px) {
+  nav {
+    background-color: #4056A1;
+    background-image: none;
+  }
  }
