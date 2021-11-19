@@ -39,6 +39,7 @@ $(document).ready(function() {
       $(this).find('textarea').val("");
       $('#tweets-container').empty();
       loadTweets();
+      $('.counter').val(140);
     });
   });
 });

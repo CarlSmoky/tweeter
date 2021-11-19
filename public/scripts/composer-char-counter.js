@@ -1,6 +1,6 @@
-$(document).ready(function () {
+$(document).ready(function() {
   const $tweetText = $("#tweet-text");
-  $tweetText.keyup(function () {
+  $tweetText.keyup(function() {
     const max = 140;
     const characterCount = $(this).val().length;
     const displayCount = max - characterCount;
